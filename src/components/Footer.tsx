@@ -18,15 +18,15 @@ const Footer = () => {
                     <div className="flex items-center gap-2">
                         <Code2 className="text-violet-500 w-5 h-5" aria-hidden="true" />
                         <span className="font-bold text-slate-300">
-                            Edgene<span className="text-violet-500">.</span>
+                            Ralph<span className="text-violet-500">.</span>
                         </span>
                     </div>
                     <div className='text-slate-600'>Software Engineer</div>
                     {/* Copyright */}
                     <p className="text-slate-600 text-sm">
-                        <span aria-label={`Copyright ${currentYear} Edgene Galang`}>
+                        <span aria-label={`Copyright ${currentYear} Ralph Escoto`}>
                             &copy; {currentYear}{" "}
-                            <span className="text-slate-500 font-medium">Edgene Galang</span>
+                            <span className="text-slate-500 font-medium">Ralph Escoto</span>
                             . All rights reserved.
                         </span>
                     </p>
@@ -34,7 +34,7 @@ const Footer = () => {
 
                 {/* SEO: Hidden but accessible description for crawlers */}
                 <p className="sr-only">
-                    Edgene Galang is a Full Stack Developer based in Bangalore, India.
+                    Ralph Escoto is a Full Stack Developer based in Bangalore, India.
                     Specializing in React, Next.js, Node.js, TypeScript, and enterprise web application development.
                 </p>
             </div>

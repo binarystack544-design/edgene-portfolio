@@ -95,14 +95,14 @@ const Projects = () => {
 							whileHover={{ y: -5 }}
 							className="bg-slate-800/40 rounded-xl overflow-hidden border border-slate-700/50 hover:border-violet-500/50 group transition-all flex flex-col"
 						>
-							<div className="h-48 bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center p-8 group-hover:from-slate-800 group-hover:to-violet-900/20 transition-colors">
+							<div className="h-48 bg-linear-to-br from-slate-800 to-slate-900 flex items-center justify-center p-8 group-hover:from-slate-800 group-hover:to-violet-900/20 transition-colors">
 								<div className="text-center">
 									<h3 className="text-xl font-bold text-slate-200 mb-1">{project.title}</h3>
 									<span className="text-sm text-violet-400 font-medium">{project.role}</span>
 								</div>
 							</div>
 
-							<div className="p-6 flex flex-col flex-grow">
+							<div className="p-6 flex flex-col grow">
 								<p className="text-slate-400 mb-6 text-sm leading-relaxed">
 									{project.desc}
 								</p>
@@ -159,7 +159,7 @@ const Projects = () => {
 									<ul className="space-y-2">
 										{selectedProject.fullDesc?.map((item, i) => (
 											<li key={i} className="flex items-start gap-3 text-slate-300">
-												<span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-violet-500 flex-shrink-0" />
+												<span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-violet-500 shrink-0" />
 												<span className="leading-relaxed">{item}</span>
 											</li>
 										))}

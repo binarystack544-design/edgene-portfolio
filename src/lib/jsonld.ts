@@ -10,8 +10,8 @@ export const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
     "@id": `${BASE_URL}/#person`,
-    name: "Edgene Galang",
-    givenName: "Edgene",
+    name: "Ralph Escoto",
+    givenName: "Ralph",
     familyName: "Galang",
     jobTitle: "Software Engineer",
     description:
@@ -66,10 +66,10 @@ export const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${BASE_URL}/#website`,
-    name: "Edgene Galang — Full Stack Developer Portfolio",
+    name: "Ralph Escoto — Full Stack Developer Portfolio",
     url: BASE_URL,
     description:
-        "Professional portfolio of Edgene Galang, a Software Engineer II specializing in React, Next.js, Node.js, and enterprise web application development.",
+        "Professional portfolio of Ralph Escoto, a Software Engineer II specializing in React, Next.js, Node.js, and enterprise web application development.",
     inLanguage: "en-US",
     author: {
         "@id": `${BASE_URL}/#person`,
@@ -89,9 +89,9 @@ export const projectsSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     "@id": `${BASE_URL}/#projects`,
-    name: "Edgene Galang's Software Projects",
+    name: "Ralph Escoto's Software Projects",
     description:
-        "A collection of enterprise-grade web applications and open-source tools built by Edgene Galang.",
+        "A collection of enterprise-grade web applications and open-source tools built by Ralph Escoto.",
     numberOfItems: 6,
     itemListElement: [
         {

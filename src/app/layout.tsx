@@ -16,17 +16,17 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://shashidhar-portfolio.netlify.app"),
 
   title: {
-    default: "Edgene Galang | Full Stack Developer — React, Node.js, Next.js",
-    template: "%s | Edgene Galang",
+    default: "Ralph Escoto | Full Stack AI Engineer",
+    template: "%s | Ralph Escoto",
   },
   description:
-    "Portfolio of Edgene Galang — Full Stack Engineer with 12+ years building scalable enterprise web apps. Expert in React, Next.js, Node.js, TypeScript, and MERN/MEVN stack. Open source contributor.",
+    "Portfolio of Ralph Escoto — Full Stack Engineer with 7+ years building scalable enterprise web apps. Expert in React, Next.js, Node.js, TypeScript, and MERN/MEVN stack. Open source contributor.",
 
   keywords: [
     // Identity
-    "Edgene Galang",
-    "Edgene Galang Portfolio",
-    "edgene developer",
+    "Ralph Escoto",
+    "Ralph Escoto Portfolio",
+    "ralph developer",
     // Role keywords
     "Full Stack Developer",
     "Full Stack Developer Portfolio",
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     "Software Engineer Portfolio India",
   ],
 
-  authors: [{ name: "Edgene Galang", url: "https://shashidhar-portfolio.netlify.app" }],
-  creator: "Edgene Galang",
-  publisher: "Edgene Galang",
+  authors: [{ name: "Ralph Escoto", url: "https://shashidhar-portfolio.netlify.app" }],
+  creator: "Ralph Escoto",
+  publisher: "Ralph Escoto",
 
   formatDetection: {
     email: false,
@@ -86,21 +86,21 @@ export const metadata: Metadata = {
   // ── Open Graph ────────────────────────────────────────────────────────────
   openGraph: {
     type: "profile",
-    firstName: "Edgene",
+    firstName: "Ralph",
     lastName: "Naik",
     username: "shashi089",
-    title: "Edgene Galang | Full Stack Developer Portfolio",
+    title: "Ralph Escoto | Full Stack Developer Portfolio",
     description:
       "Software Engineer II with 4+ years of experience. React, Next.js, Node.js, TypeScript. Frontend Lead for enterprise Warehouse Management System. Open source contributor.",
     url: "https://shashidhar-portfolio.netlify.app",
-    siteName: "Edgene Galang Portfolio",
+    siteName: "Ralph Escoto Portfolio",
     locale: "en_US",
     images: [
       {
         url: "/portfolio_hero_section.png",
         width: 1200,
         height: 630,
-        alt: "Edgene Galang — Full Stack Developer Portfolio Preview",
+        alt: "Ralph Escoto — Full Stack Developer Portfolio Preview",
         type: "image/png",
       },
     ],
@@ -109,16 +109,16 @@ export const metadata: Metadata = {
   // ── Twitter Card ──────────────────────────────────────────────────────────
   twitter: {
     card: "summary_large_image",
-    title: "Edgene Galang | Full Stack Developer — React, Node.js, Next.js",
+    title: "Ralph Escoto | Full Stack AI Engineer",
     description:
       "Software Engineer II specializing in scalable enterprise web apps. Expert in MERN/MEVN stack and open source tools.",
     images: [
       {
         url: "/portfolio_hero_section.png",
-        alt: "Edgene Galang Portfolio Preview",
+        alt: "Ralph Escoto Portfolio Preview",
       },
     ],
-    creator: "@edgene_dev",
+    creator: "@ralph_dev",
   },
 
   // ── Icons ─────────────────────────────────────────────────────────────────

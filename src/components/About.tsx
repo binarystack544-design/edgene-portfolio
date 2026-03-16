@@ -1,34 +1,44 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Database, Globe, Server, Cpu } from 'lucide-react';
+import { Database, Globe, Server, Cpu, Brain, Settings } from 'lucide-react';
 
 const About = () => {
     const skills = [
         {
+            category: "Automation & Orchestration",
+            icon: <Settings className="w-6 h-6 text-slate-400" />,
+            items: ["n8n", "Zapier", "Webhook Architecture", "ETL Pipelines", "GHL", "HubSpot", "Salesforce", "15+ API platforms"]
+        },
+        {
+            category: "Backend & APIs",
+            icon: <Brain className="w-6 h-6 text-amber-300" />,
+            items: ["GPT-4o", "Claude 3.5/4", "Anthropic API", "OpenAI API", "Prompt Engineering", "LangChain", "AI Agents", "Microservices"]
+        },
+        {
             category: "Frontend Development",
             icon: <Globe className="w-6 h-6 text-violet-400" />,
-            items: ["React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML5/CSS3", "Tailwind CSS", "Material UI", "Vuetify", "Bootstrap"]
+            items: ["React", "Next.js", "TypeScript", "Vue.js", "WebSockets", "Tailwind CSS", "SSE", "Responsive Design", "RBAC Dashboards"]
         },
         {
             category: "Backend & APIs",
             icon: <Server className="w-6 h-6 text-pink-400" />,
-            items: ["Node.js", "Express.js", "NestJS", "RESTful APIs", "Python"]
+            items: ["Node.js/Express", "FastAPI", "Django", "Flask", "Python", "RESTful APIs", "GraphQL", "Microservices", "Async/Celery", "Event-Driven"]
         },
         {
             category: "Database & Cloud",
             icon: <Database className="w-6 h-6 text-blue-400" />,
-            items: ["MongoDB", "Deployment", "DevOps Basics", "MySQL"]
+            items: ["Pinecone", "Weaviate", "FAISS", "MongoDB", "Redis", "MySQL", "PostgreSQL", "Deployment"]
         },
         {
-            category: "Tools & Concepts",
+            category: "DevOps & AI Dev.",
             icon: <Cpu className="w-6 h-6 text-emerald-400" />,
-            items: ["Git/GitHub", "Postman", "VS Code", "Performance Optimization", "Scalable Architecture"]
+            items: ["Git/GitHub", "Postman", "CI/CD", "Performance Optimization", "Scalable Architecture", "AWS", "Docker", "Kubernetes", "MLflow", "Claude Code", "Cursor", "Replit"]
         }
     ];
 
     return (
-        <section id="about" aria-label="About Edgene Galang" className="py-20 bg-slate-900/30 relative">
+        <section id="about" aria-label="About Ralph Escoto" className="py-20 bg-slate-900/30 relative">
             <div className="container mx-auto px-4 md:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -39,7 +49,18 @@ const About = () => {
                 >
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
                     <p className="text-lg text-slate-400 leading-relaxed">
-                        Senior Full Stack Engineer with 12+ years of experience building and supporting e-commerce web applications using the MERN stack. Strong in React and Next.js for fast, polished user experiences, and Node.js, Express and NestJS for scalable backend services and RESTful APIs. Comfortable designing schemas, indexing, and optimizing queries in MongoDB and SQL-based databases. Known for improving load times and reliability through clean architecture, solid testing, and modern DevOps practices, while working smoothly with remote, cross-functional teams.
+                        Senior Full Stack AI Engineer with 7+ years building production systems
+                        end-to-end, from React/TypeScript frontends and FastAPI backends to
+                        LLM-powered features, RAG pipelines, and AI-integrated workflow
+                        automation. I don't just "add AI" to apps; I architect how AI sits in the system:
+                        which model handles what, how prompts stay reliable at scale, where
+                        automation replaces manual work, and how all of it holds up in production.
+                        Whether the stack uses Claude API, OpenAI, voice AI, or multi-agent
+                        orchestration, I've built it and shipped it to real users.<br/>
+                        <span className='font-bold text-slate-300'>Core Value Proposition:</span> Deliver production-ready, scalable web
+                        applications through clean architecture, API Design excellence, and
+                        comprehensive full stack expertise from database to UI
+
                     </p>
                 </motion.div>
 

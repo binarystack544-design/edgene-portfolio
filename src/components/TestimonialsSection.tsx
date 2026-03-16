@@ -30,7 +30,7 @@ const testimonials = [
   },
   {
     quote:
-      "Edgene is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.",
+      "Ralph is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.",
     attribution: "CTO",
   },
   {
@@ -71,7 +71,7 @@ export default function TestimonialsSection() {
             What My Clients Say
           </h2>
           <p className="text-slate-400 text-muted-foreground max-w-2xl mx-auto">
-            Operators choose Edgene when outcomes matter.
+            Operators choose Ralph when outcomes matter.
           </p>
         </div>
 

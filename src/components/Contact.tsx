@@ -28,18 +28,18 @@ export default function ContactSection() {
 	const footerContacts = [
 		{
 			label: "Email",
-			value: "arcadejmamangun@gmail.com",
-			href: "mailto:henrybrown99128@gmail.com",
+			value: "ralphvescoto@gmail.com",
+			href: "mailto:ralphvescoto@gmail.com",
 		},
 		{
 			label: "WhatsApp",
-			value: "+63 993 694 4995",
-			href: "https://wa.me/639936944995",
+			value: "+63 926 966 3658",
+			href: "https://wa.me/639269663658",
 		},
 		{
 			label: "LinkedIn",
-			value: "linkedin.com/in/arcade-j-mamangun-a46b50387",
-			href: "https://www.linkedin.com/in/arcade-j-mamangun-a46b50387",
+			value: "linkedin.com/in/ralph-escoto-4055593b2",
+			href: "https://www.linkedin.com/in/ralph-escoto-4055593b2/",
 		},
 		{
 			label: "Location",

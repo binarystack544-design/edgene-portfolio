@@ -23,17 +23,17 @@ const Hero = () => {
                     </div>
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                         Hi, I'm <br />
-                        <span className="text-gradient">Edgene Galang</span>
+                        <span className="text-gradient">Ralph Escoto</span>
                     </h1>
                     <p className="text-xl text-slate-400 mb-8 max-w-lg leading-relaxed">
-                        Software Engineer specializing in building scalable enterprise web applications with the <span className="text-violet-400 font-semibold">MERN</span> stacks.
+                        Senior Full Stack AI Engineer specializing in building scalable production web applications with AI-integrated systems, LLM features, and workflow automation.
                     </p>
 
                     <div className="flex flex-wrap gap-4 mb-10">
                         <Link to="projects" smooth={true} offset={-100} className="px-8 py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium transition-all shadow-lg shadow-violet-600/20 cursor-pointer">
                             View Work
                         </Link>
-                        <a href="/MYResume-1.pdf" download className="px-8 py-3 border border-slate-700 hover:border-violet-500 hover:text-violet-400 text-slate-300 rounded-lg font-medium transition-all flex items-center gap-2 group">
+                        <a href="/Resume.pdf" download className="px-8 py-3 border border-slate-700 hover:border-violet-500 hover:text-violet-400 text-slate-300 rounded-lg font-medium transition-all flex items-center gap-2 group">
                             <Download className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
                             Download CV
                         </a>
@@ -41,9 +41,9 @@ const Hero = () => {
 
                     <div className="flex gap-6" role="list" aria-label="Social profiles">
                         {[
-                            { icon: <Phone aria-hidden="true" />, href: 'https://wa.me/639936944995', label: 'Phone' },
-                            { icon: <Linkedin aria-hidden="true" />, href: 'https://www.linkedin.com/in/shashidhar-naik-aab5b512a/', label: 'LinkedIn profile — Edgene Galang' },
-                            { icon: <Mail aria-hidden="true" />, href: 'mailto:arcadejmamangun@gmail.com', label: 'Mail' },
+                            { icon: <Phone aria-hidden="true" />, href: 'https://wa.me/639269663658', label: 'Phone' },
+                            { icon: <Linkedin aria-hidden="true" />, href: 'https://www.linkedin.com/in/ralph-escoto-4055593b2/', label: 'LinkedIn profile — Ralph Escoto' },
+                            { icon: <Mail aria-hidden="true" />, href: 'mailto:ralphvescoto@gmail.com', label: 'Mail' },
                         ].map((social, index) => (
                             <a
                                 key={index}
@@ -67,8 +67,8 @@ const Hero = () => {
                     className="relative hidden md:block"
                 >
                     {/* Abstract Code Visual or 3D Element Placeholder */}
-                    <div className="w-full h-[500px] border border-slate-800 bg-slate-900/50 rounded-2xl relative overflow-hidden group">
-                        <div className="absolute inset-0 bg-gradient-to-br from-violet-500/10 to-transparent opacity-50" />
+                    <div className="w-full h-125 border border-slate-800 bg-slate-900/50 rounded-2xl relative overflow-hidden group">
+                        <div className="absolute inset-0 bg-linear-to-br from-violet-500/10 to-transparent opacity-50" />
 
                         {/* Mock Code Editor Look */}
                         <div className="flex items-center gap-2 p-4 border-b border-slate-800">
@@ -83,16 +83,16 @@ const Hero = () => {
                                 <span className="text-violet-400">const</span> <span className="text-blue-400">developer</span> = <span className="text-yellow-400">{"{"}</span>
                             </div>
                             <div className="pl-6">
-                                <span className="text-slate-500">name:</span> <span className="text-green-400">'Edgene Galang'</span>,
+                                <span className="text-slate-500">name:</span> <span className="text-green-400">'Ralph Escoto'</span>,
                             </div>
                             <div className="pl-6">
-                                <span className="text-slate-500">role:</span> <span className="text-green-400">'MERN Stack Developer'</span>,
+                                <span className="text-slate-500">role:</span> <span className="text-green-400">'Full Stack AI Engineer | AI Engineer'</span>,
                             </div>
                             <div className="pl-6">
-                                <span className="text-slate-500">experience:</span> <span className="text-orange-400">12+</span>,
+                                <span className="text-slate-500">experience:</span> <span className="text-orange-400">7+</span>,
                             </div>
                             <div className="pl-6">
-                                <span className="text-slate-500">skills:</span> <span className="text-yellow-400">['React','Javascript', 'Node Js', 'Express Js','TypeScript', 'MongoDB',"Python","PostgreSQL"]</span>,
+                                <span className="text-slate-500">skills:</span> <span className="text-yellow-400">['React','TypeScript', 'Next.js' 'Node.Js/Express', "Python", 'FastAPI', 'Prompt Engineering', 'OpenAI API', 'n8n', 'GPT-4o', 'Claude 3.5/4', 'MongoDB','PostgreSQL']</span>,
                             </div>
                             <div className="pl-6">
                                 <span className="text-slate-500">currentFocus:</span> <span className="text-green-400">'Enterprise Web Applications'</span>
